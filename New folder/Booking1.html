@@ -1,0 +1,40 @@
+<html>
+<style type="text/css">
+	body{
+		background-image: url(lord.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+        background-position: right;
+		}
+</style>
+<body>
+<div style="height:80px;width=100%">
+	<legend><center><font size="30" color="floralwhite"><B>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Booking</B></font></center></legend>
+</div>
+<br><br>
+<center>
+	<form action="Booking1.php" method="GET">
+		<label for="btype" name="btype">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=white>Booking Type:</font> </label>
+        <select name="btype" size="1">
+        <option value="Hall Booking">Hall Booking</option>
+        <option value="VIP Darshan">VIP Darshan</option>
+        <option value="Abhishek">Abhishek</option>
+        </select>
+<br>
+<br>
+		<label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=white>Date:</font></label>
+        <input type="Date" name="bdate">
+        
+<br><br>
+
+		<label for="btime" name="btime">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=white>Booking Timing:</font></label>
+        <input type="time" name="btime">
+        <br><br>
+
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<input type="SUBMIT" name="SUBMIT">
+		<input type="RESET" name="RESET">
+	</form>
+</center>
+</body>
+</html>
